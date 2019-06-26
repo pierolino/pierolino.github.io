@@ -10,7 +10,7 @@ body{
 	font-weight: 400;
 	width: 100%;
 	background-color: #50D09D;
-	color: white;
+	color: #094751;/* white; */
 	border-radius: 25px;
 	border-top: 47%;
 	margin: 0px;
@@ -56,7 +56,7 @@ padding-right: .6em;
 	font-size: 42px;
 /* 	font-weight: 400;
 	width: 100%; */
-	color: #50BFD0;
+	color: #094751;/* #50BFD0; */
 	text-align:center;
 	padding-bottom: 1%;
 }
@@ -160,11 +160,11 @@ padding-right: .6em;
 	font-weight: 400;
  	width: 100%; 
 	background-color: lightsalmon;
-	color: white;
+	color: #094751;/* white; */
 	border-radius: 25px;
 	padding:9px;
 	margin-bottom:2%;
-		margin-top:2%;
+	margin-top:2%;
 }
 
 .mycellTARIF {
@@ -172,7 +172,7 @@ padding-right: .6em;
 	font-weight: 400;
 	width: 100%;
 	background-color: #50BFD0;
-	color: white;
+	color: #094751;/* white; */
 	border-radius: 25px;
 	margin-top:2%;
 }
