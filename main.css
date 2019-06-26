@@ -100,7 +100,7 @@ padding-right: .6em;
 .button {
 	color: #FFF;
 	background: #50BFD0;
-	border-radius: .3rem;
+	border-radius: 25px;
 	border: none;
 	padding: .688rem 1rem;
 	font-size: 13px;
