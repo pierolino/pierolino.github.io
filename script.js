@@ -2,6 +2,34 @@
 
 $(function() {
 
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
 /* $("#calendar").datepicker(); */
 	// $(".titi").scroll(function(){
 	//	
@@ -14,23 +42,33 @@ $(function() {
 /* $("#Bouton_studio").css('background-color', 'blue') */
 
 $("#Bouton_maison").click(function(){
-	$("#Bouton_studio").show();
-	$("#Bouton_maison").hide();
-	$("#studio").hide();
-	$( "#maison").show();	
-	$("#maison_title").text("Location Maison Hossegor/Capbreton");
-
+	
+	$( "#maison").show();
+	/* $( "#Bouton_studio").hide(); */
+/* 	$( "#Bouton_maison").hide(); */
+/* 	$( "#Bouton_title_studio").show(); */
+ 	/* $( "#studio").hide(); */
+	/* $( "#bienvenue").hide();  */
+	
+	
+$("#maison_title").text("Location Maison Hossegor/Capbreton");
+	$("#maison").show();
+		$("#studio").hide();
 	});
 	
 	$("#Bouton_studio").click(function(){
 	
-	$("#Bouton_maison").show();
-	$("#Bouton_studio").hide();
 	$( "#studio").show();
-	$("#maison").hide();
+/* 	$( "#Bouton_maison").hide();
+	$( "#Bouton_studio").hide();
+	$( "#Bouton_title_maison").show();
+	$( "#maison").hide();
+	$( "#bienvenue").hide(); */
 	$("#maison_title").text("Location Studio Hossegor/Capbreton");
-	
+	$("#studio").show();
+	$("#maison").hide();
 	/* $("#Bouton_studio").css('color', 'blue') */
+
 	});
 
 /* par default */
@@ -40,7 +78,7 @@ $("#template_Septembre_maison").hide();
 $("#template_Aout_studio").hide();
 $("#template_Septembre_studio").hide();
 $("#studio").hide();
-$("#Bouton_maison").hide()
+
 
 
 
