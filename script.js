@@ -69,7 +69,7 @@ $("#template_Septembre_maison").hide();
 $("#template_Aout_studio").hide();
 $("#template_Septembre_studio").hide();
 $("#studio").hide();
-
+$("#Bouton_studio").hide();
 
 
 
