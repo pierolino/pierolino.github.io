@@ -1,0 +1,204 @@
+
+
+body{
+	background-color:#f2f4d1;
+}
+
+.mycellDetails{
+	margin-top:2% !important;
+	font-family: 'Fredoka One', cursive, Georgia, Times;
+	font-weight: 400;
+	width: 100%;
+	background-color: #50D09D;
+	color: white;
+
+	border-radius: 4%;
+	border-top: 47%;
+	margin: 0px;
+}
+.busy{
+	
+	background-color:red;
+	
+}
+
+
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: left;
+}
+
+li
+{
+background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+}
+
+.btn-primary{
+	margin:1px;
+}
+
+.calendar{
+	margin:1px;
+	/* background-color:#50BFD0; */
+	border-radius: 4%;
+	margin-top: 2%;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+
+/* font-family: 'Fredoka One', cursive, Georgia, Times; */
+.title {
+	font-family: 'Arizonia';
+	font-size: 42px;
+/* 	font-weight: 400;
+	width: 100%; */
+	color: #50BFD0;
+	text-align:center;
+	padding-bottom: 1%;
+}
+
+.boutonTitle{
+	margin-top: 2%;
+	text-align:center;
+}
+
+
+/* first container */
+.bosanova {
+	padding: 25px;
+	background: black;
+	position: fixed;
+	z-index: 6;
+	margin-bottom: 20px;
+	text-align: center
+}
+
+.idee{
+	padding-top: 1%;
+	padding-bottom:2%;
+}
+
+/* navbar  */
+.btn-primary {
+	color: #fff;
+	background-color: #50BFD0;
+	font-family: 'Fredoka One', cursive, Georgia, Times;
+	border-color: #50BFD0;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+	.btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #bcdecd;
+	border-color: #bcdecd; /*set the color you want here*/
+}
+
+.button {
+	color: #FFF;
+	background: #50BFD0;
+	border-radius: .3rem;
+	border: none;
+	padding: .688rem 1rem;
+	font-size: 13px;
+	font-size: .813rem;
+	text-align: center;
+}
+
+/* second container */
+.myposition {  
+/* 	position: relative; */
+	z-index: 2;
+}
+/* inside second container  CAROUSEL*/
+.carousel-inner {
+	border-radius: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-image: none;
+}
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 55px;
+	color: red;
+}
+
+.carousel-control-prev-icon:after {
+	/* 	content: '<'; */
+	content: url(image/index_next.png);
+	font-size: 55px;
+	color: red;
+}
+
+.etiquette{
+	
+	padding-left:20px;
+	
+	
+}
+
+
+.table-condensed{
+	margin:auto;
+}
+
+
+
+.mycellINFO {
+	font-family: 'Fredoka One', cursive, Georgia, Times;
+	font-weight: 400;
+ 	width: 100%; 
+	background-color: lightsalmon;
+	color: white;
+	border-radius: 25px;
+	padding:9px;
+	margin-bottom:2%;
+		margin-top:2%;
+}
+
+.mycellTARIF {
+	font-family: 'Fredoka One', cursive, Georgia, Times;
+	font-weight: 400;
+	width: 100%;
+	background-color: #50BFD0;
+	color: white;
+	border-radius: 25px;
+	margin-top:2%;
+}
+
+
+
+.cote_geographique{
+	padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+/* table */
+
+table.roundedCorners { 
+  border: 1px solid Black;
+  border-radius: 25px; 
+  border-spacing: 0;
+  }
+table.roundedCorners td, 
+table.roundedCorners th { 
+  border-bottom: 1px solid Black;
+  padding: 10px; 
+  }
+table.roundedCorners tr:last-child > td {
+  border-bottom: none;
+}
