@@ -14,7 +14,7 @@ $(function() {
 /* $("#Bouton_studio").css('background-color', 'blue') */
 
 $("#Bouton_maison").click(function(){
-	
+	$("#Bouton_studio").show()
 	$( "#maison").show();
 	/* $( "#Bouton_studio").hide(); */
 /* 	$( "#Bouton_maison").hide(); */
@@ -29,7 +29,8 @@ $("#maison_title").text("Location Maison Hossegor/Capbreton");
 	});
 	
 	$("#Bouton_studio").click(function(){
-	
+	$("#Bouton_maison").show();
+	$("#Bouton_studio").hide();
 	$( "#studio").show();
 /* 	$( "#Bouton_maison").hide();
 	$( "#Bouton_studio").hide();
@@ -50,7 +51,7 @@ $("#template_Septembre_maison").hide();
 $("#template_Aout_studio").hide();
 $("#template_Septembre_studio").hide();
 $("#studio").hide();
-
+$("#Bouton_maison").hide()
 
 
 
