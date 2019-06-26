@@ -41,34 +41,25 @@ window.onclick = function(event) {
 
 /* $("#Bouton_studio").css('background-color', 'blue') */
 
+
 $("#Bouton_maison").click(function(){
-	
-	$( "#maison").show();
-	/* $( "#Bouton_studio").hide(); */
-/* 	$( "#Bouton_maison").hide(); */
-/* 	$( "#Bouton_title_studio").show(); */
- 	/* $( "#studio").hide(); */
-	/* $( "#bienvenue").hide();  */
-	
-	
-$("#maison_title").text("Location Maison Hossegor/Capbreton");
-	$("#maison").show();
-		$("#studio").hide();
+	$("#Bouton_studio").show();
+	$("#Bouton_maison").hide();
+	$("#studio").hide();
+	$( "#maison").show();	
+	$("#maison_title").text("Location Maison Hossegor/Capbreton");
+
 	});
 	
 	$("#Bouton_studio").click(function(){
 	
+	$("#Bouton_maison").show();
+	$("#Bouton_studio").hide();
 	$( "#studio").show();
-/* 	$( "#Bouton_maison").hide();
-	$( "#Bouton_studio").hide();
-	$( "#Bouton_title_maison").show();
-	$( "#maison").hide();
-	$( "#bienvenue").hide(); */
-	$("#maison_title").text("Location Studio Hossegor/Capbreton");
-	$("#studio").show();
 	$("#maison").hide();
+	$("#maison_title").text("Location Studio Hossegor/Capbreton");
+	
 	/* $("#Bouton_studio").css('color', 'blue') */
-
 	});
 
 /* par default */
