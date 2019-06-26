@@ -14,7 +14,8 @@ $(function() {
 /* $("#Bouton_studio").css('background-color', 'blue') */
 
 $("#Bouton_maison").click(function(){
-	$("#Bouton_studio").show()
+	$("#Bouton_studio").show();
+	$("#Bouton_maison").hide();
 	$( "#maison").show();
 	/* $( "#Bouton_studio").hide(); */
 /* 	$( "#Bouton_maison").hide(); */
