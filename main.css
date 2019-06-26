@@ -1,5 +1,6 @@
 
 
+
 body{
 	background-color:#f2f4d1;
 }
@@ -49,11 +50,10 @@ padding-right: .6em;
 	padding-top:5px;
 }
 
-
 /* font-family: 'Fredoka One', cursive, Georgia, Times; */
 .title {
 	font-family: 'Arizonia';
-	font-size: 42px;
+	font-size: 425%;
 /* 	font-weight: 400;
 	width: 100%; */
 	color: #094751;/* #50BFD0; */
@@ -177,7 +177,9 @@ padding-right: .6em;
 	margin-top:2%;
 }
 
-
+button:focus{
+    background:olive;
+}
 
 .cote_geographique{
 	padding-bottom: 20px;

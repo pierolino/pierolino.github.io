@@ -10,104 +10,8 @@ $(function() {
 	//		
 	// })
 	
-/* 	$( "#maison").hide();
-	$( "#studio").hide(); */
-/* 	 $( "#Bouton_title_studio").hide();
-	$( "#Bouton_title_maison").hide(); */
-	
-/* 	$( "#cote_cuisine").hide();
-	$( "#cote_geographique").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_terrasse").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_sallebain").hide(); */
-	
-/* 	
-	$("#Bouton_maison").click(function(){
-	
-	$( "#maison").show();
-	$( "#Bouton_studio").hide();
-	$( "#Bouton_maison").hide();
-	$( "#Bouton_title_studio").show();
-	$( "#studio").hide();
-	$( "#bienvenue").hide();
-	
-	
 
-	});
-	
-	$("#Bouton_studio").click(function(){
-	
-	$( "#studio").show();
-	$( "#Bouton_maison").hide();
-	$( "#Bouton_studio").hide();
-	$( "#Bouton_title_maison").show();
-	$( "#maison").hide();
-	$( "#bienvenue").hide();
-	});
-		
-	$("#Bouton_cote_cuisine").click(function(){
-	
-	$( "#cote_cuisine").show();
-	$( "#cote_geographique").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_terrasse").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_sallebain").hide();	
-	});
-	
-	$("#Bouton_cote_geographique").click(function(){
-	
-	$( "#cote_geographique").show();
-	$( "#cote_cuisine").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_terrasse").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_sallebain").hide();	
-	});
-	
-	$("#Bouton_cote_divertissement").click(function(){
-	
-	$( "#cote_divertissement").show();
-	$( "#cote_cuisine").hide();
-	$( "#cote_geographique").hide();
-	$( "#cote_terrasse").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_sallebain").hide();	
-	});
-	
-	$("#Bouton_cote_terrasse").click(function(){
-	
-	$( "#cote_terrasse").show();
-	$( "#cote_cuisine").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_geographique").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_sallebain").hide();	
-	});
-	
-	$("#Bouton_cote_chambre").click(function(){
-	
-	$( "#cote_chambre").show();
-	$( "#cote_cuisine").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_geographique").hide();
-	$( "#cote_terrasse").hide();
-	$( "#cote_sallebain").hide();	
-	});
-	
-	$("#Bouton_cote_sallebain").click(function(){
-	
-	$( "#cote_sallebain").show();
-	$( "#cote_cuisine").hide();
-	$( "#cote_divertissement").hide();
-	$( "#cote_geographique").hide();
-	$( "#cote_chambre").hide();
-	$( "#cote_cote_terrasse").hide();	
-	});	
-	
-*/
-
+/* $("#Bouton_studio").css('background-color', 'blue') */
 
 $("#Bouton_maison").click(function(){
 	
@@ -135,6 +39,7 @@ $("#maison_title").text("Location Maison Hossegor/Capbreton");
 	$("#maison_title").text("Location Studio Hossegor/Capbreton");
 	$("#studio").show();
 	$("#maison").hide();
+	/* $("#Bouton_studio").css('color', 'blue') */
 
 	});
 
